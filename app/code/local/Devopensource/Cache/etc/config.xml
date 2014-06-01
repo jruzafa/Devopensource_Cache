@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Devopensource_Cache>
+            <version>0.1.0</version>
+        </Devopensource_Cache>
+    </modules>
+    <global>
+        <helpers>
+            <devopencache>
+                <class>Devopensource_Cache_Helper</class>
+            </devopencache>
+        </helpers>
+        <cache>
+            <types>
+                <devopen translate="label,description" module="devopencache">
+                    <label>Data modules custom</label>
+                    <description>Cache for modulos custom</description>
+                    <tags>DEVOPEN_CACHE</tags>
+                </devopen>
+            </types>
+        </cache>
+    </global>
+</config>

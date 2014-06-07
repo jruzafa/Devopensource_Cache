@@ -34,7 +34,7 @@ class Devopensource_Cache_Helper_Data extends Mage_Core_Helper_Abstract {
     /**
      * Load unserialize data from cache
      * @param string $key id cache
-     * @return bool
+     * @return object
      */
     public function loadCache($key){
 
